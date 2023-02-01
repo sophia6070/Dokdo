@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #111;
+  font-size: 16px;
+}
+.header {
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.inner {
+  height: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  background-color: #fff;
+  transition: height 0.6s;
+}
+
+.inner.sticky {
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.92);
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  display: inline-block;
+  align-items: center;
+  padding: 0 20px;
+  margin: 0 40px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.nav li:hover {
+  color: #3971ff;
+}
+
+.product_01 img {
+  margin-top: 300px;
+  margin-left: 500px;
+  margin-bottom: 100px;
+ 
+}
+
+.product_02 .input_box .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 50px;
+  width: 834px;
+  margin-left: 500px;
+}
+
+.product_02 .input_box .inputs input {
+  padding: 17px 20px;
+  border: 1px solid #d4d0d0;
+  background-color: #f5f6f7;
+  border-radius: 6px;
+}
+
+.btn {
+  width: 220px;
+  height: 60px;
+  background-color: #4367c3;
+  color: #fff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-left: 800px;
+  margin-bottom: 300px;
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #111;
+    font-size: 16px;
+}
+.header {
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.inner {
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    background-color: #fff;
+    transition: height 0.6s;
+}
+
+.inner.sticky {
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.92);
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    display: inline-block;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0 40px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.nav li:hover {
+    color: #3971ff;
+}
+
+.banner {
+    height: 700px;
+    background-image: url('/images/DOKDO.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.center_box {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.outer {
+    border-bottom: 1px solid #ddd;
+}
+
+.product_01 {
+    display: flex;
+    width: 1500px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.product_01 li a {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.banner_02 {
+    height: 1035px;
+    background-image: url('/images/독도\ 정부\ 기본입장.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product_02 {
+    padding-left: 10px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.footer {
+    border-top: 1px solid #ddd;
+}
+
+.footer h2 {
+    font-size: 40px;
+    margin-top: 40px;
+    color: #5b5b5b;
+}
+
+.footer p {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #5b5b5b;
+}
+
+.copyright {
+    margin-left: 370px;
+    margin-bottom: 40px;
+    color: #5b5b5b;
+}
